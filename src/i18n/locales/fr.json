@@ -1,0 +1,63 @@
+{
+  "nav": {
+    "about": "À Propos",
+    "projects": "Projets",
+    "showcase": "Vitrine",
+    "world": "Monde d'Urban Promo",
+    "contact": "Contact"
+  },
+  "hero": {
+    "video1": {
+      "subtitle": "Transformer les Villes",
+      "title": "Innovation Urbaine",
+      "description": "Découvrez l'avenir du développement urbain avec des stratégies promotionnelles de pointe qui transforment les paysages métropolitains.",
+      "cta": "Explorer les Projets"
+    },
+    "video2": {
+      "subtitle": "Solutions Créatives",
+      "title": "Excellence Numérique",
+      "description": "Découvrez comment nous mélangeons technologie et créativité pour offrir des campagnes promotionnelles exceptionnelles aux entreprises modernes.",
+      "cta": "Voir le Portfolio"
+    },
+    "video3": {
+      "subtitle": "Croissance Stratégique",
+      "title": "Évolution de Marque",
+      "description": "Partenaire avec nous pour élever votre présence de marque grâce à des stratégies promotionnelles innovantes et une narration visuelle convaincante.",
+      "cta": "Commencer le Voyage"
+    },
+    "scroll": "DÉFILER"
+  },
+  "projects": {
+    "dropdown": {
+      "title": "Projets Vedettes",
+      "subtitle": "Explorez Notre Travail",
+      "items": [
+        {
+          "title": "Plaza Métropolitain",
+          "category": "Développement Urbain",
+          "description": "Développement révolutionnaire à usage mixte au centre-ville",
+          "image": "https://images.pexels.com/photos/2462015/pexels-photo-2462015.jpeg"
+        },
+        {
+          "title": "Initiative Ville Intelligente",
+          "category": "Intégration Technologique",
+          "description": "Infrastructure IoT pour un mode de vie urbain durable",
+          "image": "https://images.pexels.com/photos/3862132/pexels-photo-3862132.jpeg"
+        },
+        {
+          "title": "Corridor Vert",
+          "category": "Design Environnemental",
+          "description": "Espaces de transport et de loisirs écologiques",
+          "image": "https://images.pexels.com/photos/1105766/pexels-photo-1105766.jpeg"
+        }
+      ],
+      "viewAll": "Voir Tous les Projets"
+    }
+  },
+  "languages": {
+    "en": "English",
+    "fr": "Français",
+    "es": "Español",
+    "de": "Deutsch"
+  }
+}

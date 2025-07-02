@@ -1,7 +1,11 @@
 import { useState, useEffect } from 'react';
+import { useTranslation } from 'react-i18next';
 import { MapPin, Menu, X } from 'lucide-react';
+import ProjectDropdown from './ProjectDropdown';
+import LanguageSelector from './LanguageSelector';
 
 const Navbar = () => {
+  const { t } = useTranslation();
   const [isVisible, setIsVisible] = useState(true);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [lastScrollY, setLastScrollY] = useState(0);
@@ -24,10 +28,10 @@ const Navbar = () => {
   }, [lastScrollY]);
 
   const navItems = [
-    { name: 'About', href: '#about' },
-    { name: 'Projects', href: '#projects' },
-    { name: 'Showcase', href: '#showcase' },
-    { name: 'World of Urban Promo', href: '#urban-promo' }
+    { name: t('nav.about'), href: '#about' },
+    { name: t('nav.projects'), href: '#projects', hasDropdown: true },
+    { name: t('nav.showcase'), href: '#showcase' },
+    { name: t('nav.world'), href: '#urban-promo' }
   ];
 
   return (
@@ -42,7 +46,7 @@ const Navbar = () => {
           isVisible ? 'translate-y-0 opacity-100' : '-translate-y-full opacity-0'
         }`}
         style={{
-          background: 'linear-gradient(180deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.6) 50%, rgba(0,0,0,0.4) 100%)',
+          background: 'linear-gradient(180deg, rgba(24,24,27,0.9) 0%, rgba(24,24,27,0.7) 50%, rgba(24,24,27,0.5) 100%)',
           backdropFilter: 'blur(10px)',
         }}
       >
@@ -50,8 +54,8 @@ const Navbar = () => {
           <div className="flex items-center justify-between h-16">
             {/* Logo */}
             <div className="flex-shrink-0">
-              <div className="text-white text-xl font-bold tracking-wide">
-                LOGO
+              <div className="text-white text-xl font-bold tracking-wide" style={{ fontFamily: 'Inter, system-ui, sans-serif' }}>
+                URBAN PROMO
               </div>
             </div>
 
@@ -59,32 +63,44 @@ const Navbar = () => {
             <div className="hidden md:block">
               <div className="ml-10 flex items-center space-x-8">
                 {navItems.map((item) => (
-                  <a
-                    key={item.name}
-                    href={item.href}
-                    className="text-zinc px-3 py-2 text-sm font-medium transition-colors duration-200 relative group"
-                  >
-                    {item.name}
-                    <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-black transition-all duration-300 group-hover:w-full"></span>
-                  </a>
+                  <div key={item.name} className={item.hasDropdown ? 'relative group' : ''}>
+                    <a
+                      href={item.href}
+                      className="text-gray-300 hover:text-white px-3 py-2 text-sm font-medium transition-colors duration-200 relative group/link"
+                      style={{ fontFamily: 'Inter, system-ui, sans-serif' }}
+                    >
+                      {item.name}
+                      <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-yellow-400 transition-all duration-300 group-hover/link:w-full"></span>
+                    </a>
+                    
+                    {/* Project Dropdown */}
+                    {item.hasDropdown && <ProjectDropdown />}
+                  </div>
                 ))}
                 
-                <button className="border border-amber-400 text-white px-6 py-2 text-sm font-medium transition-all duration-200 transform hover:scale-105 shadow-lg">
-                  Contact
+                {/* Language Selector */}
+                <LanguageSelector />
+                
+                <button 
+                  className="border border-yellow-400 text-yellow-400 hover:bg-yellow-400 hover:text-zinc-900 px-6 py-2 text-sm font-medium transition-all duration-200 transform hover:scale-105 shadow-lg"
+                  style={{ fontFamily: 'Inter, system-ui, sans-serif' }}
+                >
+                  {t('nav.contact')}
                 </button>
                 
                 {/* Location Icon */}
-                <button className="text-amber-300 hover:text-white p-2 rounded-full hover:bg-white/10 transition-all duration-200">
+                <button className="text-yellow-400 hover:text-white p-2 hover:bg-white/10 transition-all duration-200">
                   <MapPin size={20} />
                 </button>
               </div>
             </div>
 
             {/* Mobile menu button */}
-            <div className="md:hidden">
+            <div className="md:hidden flex items-center space-x-2">
+              <LanguageSelector />
               <button
                 onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-                className="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-white/10 transition-all duration-200"
+                className="inline-flex items-center justify-center p-2 text-gray-400 hover:text-white hover:bg-white/10 transition-all duration-200"
               >
                 {isMobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
               </button>
@@ -98,7 +114,7 @@ const Navbar = () => {
             isMobileMenuOpen ? 'max-h-96 opacity-100' : 'max-h-0 opacity-0'
           }`}
           style={{
-            background: 'linear-gradient(180deg, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.8) 100%)',
+            background: 'linear-gradient(180deg, rgba(24,24,27,0.95) 0%, rgba(24,24,27,0.9) 100%)',
             backdropFilter: 'blur(15px)'
           }}
         >
@@ -107,7 +123,8 @@ const Navbar = () => {
               <a
                 key={item.name}
                 href={item.href}
-                className="block text-gray-300 hover:text-white px-3 py-3 text-base font-medium transition-colors duration-200 hover:bg-white/5 rounded-lg"
+                className="block text-gray-300 hover:text-white px-3 py-3 text-base font-medium transition-colors duration-200 hover:bg-white/5"
+                style={{ fontFamily: 'Inter, system-ui, sans-serif' }}
                 onClick={() => setIsMobileMenuOpen(false)}
               >
                 {item.name}
@@ -115,11 +132,14 @@ const Navbar = () => {
             ))}
             
             <div className="flex items-center space-x-4 px-3 pt-4">
-              <button className="flex-1 bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white px-6 py-3 rounded-full text-sm font-medium transition-all duration-200 transform hover:scale-105 shadow-lg">
-                Contact
+              <button 
+                className="flex-1 bg-yellow-400 hover:bg-yellow-300 text-zinc-900 px-6 py-3 text-sm font-medium transition-all duration-200 transform hover:scale-105 shadow-lg"
+                style={{ fontFamily: 'Inter, system-ui, sans-serif' }}
+              >
+                {t('nav.contact')}
               </button>
               
-              <button className="text-gray-300 hover:text-white p-3 rounded-full hover:bg-white/10 transition-all duration-200">
+              <button className="text-yellow-400 hover:text-white p-3 hover:bg-white/10 transition-all duration-200">
                 <MapPin size={20} />
               </button>
             </div>

@@ -1,0 +1,63 @@
+{
+  "nav": {
+    "about": "Acerca de",
+    "projects": "Proyectos",
+    "showcase": "Escaparate",
+    "world": "Mundo de Urban Promo",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "video1": {
+      "subtitle": "Transformando Ciudades",
+      "title": "Innovación Urbana",
+      "description": "Experimenta el futuro del desarrollo urbano con estrategias promocionales de vanguardia que remodelan los paisajes metropolitanos.",
+      "cta": "Explorar Proyectos"
+    },
+    "video2": {
+      "subtitle": "Soluciones Creativas",
+      "title": "Excelencia Digital",
+      "description": "Descubre cómo combinamos tecnología y creatividad para entregar campañas promocionales excepcionales para empresas modernas.",
+      "cta": "Ver Portafolio"
+    },
+    "video3": {
+      "subtitle": "Crecimiento Estratégico",
+      "title": "Evolución de Marca",
+      "description": "Asóciate con nosotros para elevar la presencia de tu marca a través de estrategias promocionales innovadoras y narrativa visual convincente.",
+      "cta": "Comenzar Viaje"
+    },
+    "scroll": "DESPLAZAR"
+  },
+  "projects": {
+    "dropdown": {
+      "title": "Proyectos Destacados",
+      "subtitle": "Explora Nuestro Trabajo",
+      "items": [
+        {
+          "title": "Plaza Metropolitana",
+          "category": "Desarrollo Urbano",
+          "description": "Desarrollo revolucionario de uso mixto en el centro de la ciudad",
+          "image": "https://images.pexels.com/photos/2462015/pexels-photo-2462015.jpeg"
+        },
+        {
+          "title": "Iniciativa Ciudad Inteligente",
+          "category": "Integración Tecnológica",
+          "description": "Infraestructura habilitada por IoT para vida urbana sostenible",
+          "image": "https://images.pexels.com/photos/3862132/pexels-photo-3862132.jpeg"
+        },
+        {
+          "title": "Corredor Verde",
+          "category": "Diseño Ambiental",
+          "description": "Espacios de transporte y recreación ecológicos",
+          "image": "https://images.pexels.com/photos/1105766/pexels-photo-1105766.jpeg"
+        }
+      ],
+      "viewAll": "Ver Todos los Proyectos"
+    }
+  },
+  "languages": {
+    "en": "English",
+    "fr": "Français",
+    "es": "Español",
+    "de": "Deutsch"
+  }
+}

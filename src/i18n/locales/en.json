@@ -1,0 +1,63 @@
+{
+  "nav": {
+    "about": "About",
+    "projects": "Projects",
+    "showcase": "Showcase",
+    "world": "World of Urban Promo",
+    "contact": "Contact"
+  },
+  "hero": {
+    "video1": {
+      "subtitle": "Transforming Cities",
+      "title": "Urban Innovation",
+      "description": "Experience the future of urban development with cutting-edge promotional strategies that reshape metropolitan landscapes.",
+      "cta": "Explore Projects"
+    },
+    "video2": {
+      "subtitle": "Creative Solutions",
+      "title": "Digital Excellence",
+      "description": "Discover how we blend technology and creativity to deliver exceptional promotional campaigns for modern businesses.",
+      "cta": "View Portfolio"
+    },
+    "video3": {
+      "subtitle": "Strategic Growth",
+      "title": "Brand Evolution",
+      "description": "Partner with us to elevate your brand presence through innovative promotional strategies and compelling visual storytelling.",
+      "cta": "Start Journey"
+    },
+    "scroll": "SCROLL"
+  },
+  "projects": {
+    "dropdown": {
+      "title": "Featured Projects",
+      "subtitle": "Explore Our Work",
+      "items": [
+        {
+          "title": "Metropolitan Plaza",
+          "category": "Urban Development",
+          "description": "Revolutionary mixed-use development in downtown core",
+          "image": "https://images.pexels.com/photos/2462015/pexels-photo-2462015.jpeg"
+        },
+        {
+          "title": "Smart City Initiative",
+          "category": "Technology Integration",
+          "description": "IoT-enabled infrastructure for sustainable urban living",
+          "image": "https://images.pexels.com/photos/3862132/pexels-photo-3862132.jpeg"
+        },
+        {
+          "title": "Green Corridor",
+          "category": "Environmental Design",
+          "description": "Eco-friendly transportation and recreation spaces",
+          "image": "https://images.pexels.com/photos/1105766/pexels-photo-1105766.jpeg"
+        }
+      ],
+      "viewAll": "View All Projects"
+    }
+  },
+  "languages": {
+    "en": "English",
+    "fr": "Français",
+    "es": "Español",
+    "de": "Deutsch"
+  }
+}
