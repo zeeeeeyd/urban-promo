@@ -55,7 +55,7 @@ const Counter = ({ end, duration, suffix = '', prefix = '' }: CounterProps) => {
   }, [isVisible, end, duration]);
 
   return (
-    <div ref={counterRef} className="text-4xl md:text-5xl font-bold text-gray-900">
+    <div ref={counterRef} className="text-xl font-bold text-gray-900">
       {prefix}{count.toLocaleString()}{suffix}
     </div>
   );
@@ -92,25 +92,22 @@ const ValueCard = ({ icon, title, description, delay }: ValueCardProps) => {
   return (
     <div
       ref={cardRef}
-      className={`group relative bg-white border border-gray-200 p-8 transition-all duration-700 hover:border-yellow-400/50 hover:shadow-2xl hover:shadow-yellow-400/10 rounded-xl ${
+      className={`group relative bg-white border border-gray-200 p-8 transition-all duration-700 hover:border-yellow-400/50 hover:shadow-2xl hover:shadow-yellow-400/10 rounded-t-md ${
         isVisible 
           ? 'opacity-100 translate-y-0 scale-100' 
           : 'opacity-0 translate-y-12 scale-95'
       }`}
     >
-      {/* Animated Background */}
-      <div className="absolute inset-0 bg-gradient-to-br from-yellow-400/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 rounded-xl"></div>
-      
-      {/* Icon Container */}
+      <div className="absolute inset-0 bg-gradient-to-br from-yellow-400/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 rounded-md"></div>
       <div className="relative mb-6">
-        <div className="w-16 h-16 bg-gradient-to-br from-yellow-400 to-yellow-500 flex items-center justify-center group-hover:scale-110 transition-transform duration-300 rounded-xl">
+        <div className="w-12 h-12 bg-gradient-to-br from-yellow-400 to-yellow-500 flex items-center justify-center group-hover:scale-110 transition-transform duration-300 rounded-md">
           {icon}
         </div>
-        <div className="absolute -inset-2 bg-yellow-400/20 blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-500 rounded-xl"></div>
+        <div className="absolute -inset-2 bg-yellow-400/20 blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-500 rounded-md"></div>
       </div>
 
       {/* Content */}
-      <h3 className="text-xl font-bold text-gray-900 mb-4 group-hover:text-yellow-600 transition-colors duration-300">
+      <h3 className="text-md font-bold text-gray-900 mb-4 group-hover:text-yellow-600 transition-colors duration-300">
         {title}
       </h3>
       <p className="text-gray-600 leading-relaxed group-hover:text-gray-700 transition-colors duration-300">
@@ -148,22 +145,22 @@ const About = () => {
 
   const values = [
     {
-      icon: <Award className="w-8 h-8 text-white" />,
+      icon: <Award className="w-5 h-5 text-white" />,
       title: t('about.values.excellence.title'),
       description: t('about.values.excellence.description')
     },
     {
-      icon: <Users className="w-8 h-8 text-white" />,
+      icon: <Users className="w-5 h-5 text-white" />,
       title: t('about.values.collaboration.title'),
       description: t('about.values.collaboration.description')
     },
     {
-      icon: <Globe className="w-8 h-8 text-white" />,
+      icon: <Globe className="w-5 h-5 text-white" />,
       title: t('about.values.sustainability.title'),
       description: t('about.values.sustainability.description')
     },
     {
-      icon: <TrendingUp className="w-8 h-8 text-white" />,
+      icon: <TrendingUp className="w-5 h-5 text-white" />,
       title: t('about.values.innovation.title'),
       description: t('about.values.innovation.description')
     }
@@ -243,11 +240,11 @@ const About = () => {
             </span>
           </div>
           
-          <h2 className="text-5xl md:text-7xl font-bold text-gray-900 mb-8 leading-tight">
+          <h2 className="text-2xl font-bold text-gray-900 m-8 leading-tight">
             {t('about.title')}
           </h2>
           
-          <p className="text-xl md:text-2xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
+          <p className="text-md text-gray-600 max-w-4xl mx-auto leading-relaxed">
             {t('about.description')}
           </p>
         </div>
@@ -291,13 +288,13 @@ const About = () => {
             <div className={`space-y-6 transition-all duration-700 ${
               isVideoExpanded ? 'opacity-0' : 'opacity-100'
             }`}>
-              <h3 className="text-3xl md:text-4xl font-bold text-gray-900">
+              <h3 className="text-2xl font-bold text-gray-900">
                 {t('about.story.title')}
               </h3>
-              <p className="text-lg text-gray-600 leading-relaxed">
+              <p className="text-md text-gray-600 leading-relaxed">
                 {t('about.story.paragraph1')}
               </p>
-              <p className="text-lg text-gray-600 leading-relaxed">
+              <p className="text-md text-gray-600 leading-relaxed">
                 {t('about.story.paragraph2')}
               </p>
             </div>
@@ -311,7 +308,7 @@ const About = () => {
           </div>
 
           <div className="relative animate-slide-in-right">
-            <div className={`aspect-square bg-gradient-to-br from-gray-100 to-gray-200 relative overflow-hidden group rounded-xl transition-all duration-600 ${
+            <div className={`aspect-square bg-gradient-to-br from-gray-100 to-gray-200 relative overflow-hidden group rounded-md transition-all duration-600 ${
               isVideoExpanded ? 'video-expand fixed inset-0 z-50 aspect-auto' : ''
             }`}>
               <img
@@ -364,10 +361,10 @@ const About = () => {
           }`}
         >
           <div className="text-center mb-16">
-            <h3 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
+            <h3 className="text-2xl font-bold text-gray-900 mb-6">
               {t('about.values.title')}
             </h3>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+            <p className="text-md text-gray-600 max-w-3xl mx-auto">
               {t('about.values.subtitle')}
             </p>
           </div>
@@ -400,7 +397,6 @@ const About = () => {
         </div>
       </div>
 
-      {/* Video Expanded Overlay */}
       {isVideoExpanded && (
         <div className="fixed inset-0 bg-black/80 backdrop-blur-sm z-40" onClick={handleCloseVideo} />
       )}

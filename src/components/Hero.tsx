@@ -91,12 +91,12 @@ const Hero = () => {
         </video>
         
         {/* Video Overlay */}
-        <div className="absolute inset-0 bg-gradient-to-b from-zinc-900/40 via-zinc-900/20 to-zinc-900/60"></div>
+        <div className="absolute inset-0 bg-gradient-to-r from-black/60 via-black/30 to-transparent"></div>
       </div>
 
-      {/* Content Container */}
-      <div className="relative z-10 h-full flex items-center justify-center px-4 sm:px-6 lg:px-8">
-        <div className="max-w-4xl mx-auto text-center">
+      {/* Content Container - Positioned in left corner for large screens */}
+      <div className="relative z-10 h-full flex items-center px-4 sm:px-6 lg:px-8">
+        <div className="max-w-2xl lg:max-w-xl">
           {/* Animated Content */}
           <div 
             className={`transform transition-all duration-1000 ease-out ${
@@ -107,20 +107,20 @@ const Hero = () => {
           >
             {/* Subtitle */}
             <div 
-              className={`inline-block mb-4 transform transition-all duration-700 delay-200 ${
+              className={`inline-block mb-3 transform transition-all duration-700 delay-200 ${
                 contentVisible 
                   ? 'translate-y-0 opacity-100' 
                   : 'translate-y-8 opacity-0'
               }`}
             >
-              <span className="text-yellow-400 text-sm font-semibold tracking-wider uppercase border border-yellow-400/30 px-4 py-2 backdrop-blur-sm bg-yellow-400/10">
+              <span className="text-yellow-400 text-xs font-semibold tracking-wider uppercase border border-yellow-400/30 px-3 py-1 backdrop-blur-sm bg-yellow-400/10">
                 {currentContent.subtitle}
               </span>
             </div>
 
             {/* Main Title */}
             <h1 
-              className={`text-5xl md:text-7xl lg:text-8xl font-bold text-white mb-6 leading-tight transform transition-all duration-700 delay-400 ${
+              className={`text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-4 leading-tight transform transition-all duration-700 delay-400 ${
                 contentVisible 
                   ? 'translate-y-0 opacity-100' 
                   : 'translate-y-8 opacity-0'
@@ -132,7 +132,7 @@ const Hero = () => {
 
             {/* Description */}
             <p 
-              className={`text-xl md:text-2xl text-gray-200 mb-8 max-w-3xl mx-auto leading-relaxed transform transition-all duration-700 delay-600 ${
+              className={`text-base md:text-lg text-gray-200 mb-6 max-w-lg leading-relaxed transform transition-all duration-700 delay-600 ${
                 contentVisible 
                   ? 'translate-y-0 opacity-100' 
                   : 'translate-y-8 opacity-0'
@@ -150,7 +150,7 @@ const Hero = () => {
                   : 'translate-y-8 opacity-0'
               }`}
             >
-              <button className="group relative inline-flex items-center justify-center px-8 py-4 text-lg font-semibold text-zinc-900 bg-yellow-400 transition-all duration-300 hover:bg-yellow-300 hover:scale-105 hover:shadow-2xl hover:shadow-yellow-400/25 transform">
+              <button className="group relative inline-flex items-center justify-center px-6 py-3 text-sm font-semibold text-zinc-900 bg-yellow-400 transition-all duration-300 hover:bg-yellow-300 hover:scale-105 hover:shadow-2xl hover:shadow-yellow-400/25 transform">
                 <span className="relative z-10">{currentContent.cta}</span>
                 <div className="absolute inset-0 bg-gradient-to-r from-yellow-400 to-yellow-300 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
               </button>
@@ -165,7 +165,7 @@ const Hero = () => {
           {/* Play/Pause Button */}
           <button
             onClick={togglePlayPause}
-            className="p-3 bg-white/10 backdrop-blur-sm border border-white/20 text-white hover:bg-white/20 transition-all duration-200"
+            className="p-3 bg-white/10 backdrop-blur-sm border border-white/20 text-white hover:bg-white/20 transition-all duration-200 rounded-lg"
           >
             {isPlaying ? <Pause size={20} /> : <Play size={20} />}
           </button>
@@ -176,14 +176,14 @@ const Hero = () => {
               <button
                 key={index}
                 onClick={() => handleVideoSelect(index)}
-                className={`w-12 h-1 transition-all duration-300 ${
+                className={`w-12 h-1 transition-all duration-300 rounded-full ${
                   index === currentVideoIndex
                     ? 'bg-yellow-400'
                     : 'bg-white/30 hover:bg-white/50'
                 }`}
               >
                 <div 
-                  className={`h-full bg-yellow-400 transition-all duration-300 ${
+                  className={`h-full bg-yellow-400 transition-all duration-300 rounded-full ${
                     index === currentVideoIndex && isPlaying ? 'animate-pulse' : ''
                   }`}
                   style={{

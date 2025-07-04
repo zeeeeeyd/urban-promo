@@ -16,7 +16,7 @@ const ProjectDropdown = () => {
   const projects: ProjectItem[] = t('projects.dropdown.items', { returnObjects: true }) as ProjectItem[];
 
   return (
-    <div className="absolute top-full left-0 w-screen max-w-4xl bg-zinc-900/95 backdrop-blur-xl border border-zinc-800 shadow-2xl transform transition-all duration-300 ease-out opacity-0 invisible group-hover:opacity-100 group-hover:visible translate-y-2 group-hover:translate-y-0">
+    <div className="absolute top-full -left-48 w-screen max-w-4xl bg-zinc-900/95 backdrop-blur-xl border border-zinc-800 shadow-2xl transform transition-all duration-300 ease-out opacity-0 invisible group-hover:opacity-100 group-hover:visible translate-y-2 group-hover:translate-y-0">
       {/* Header */}
       <div className="p-6 border-b border-zinc-800">
         <div className="flex items-center justify-between">
