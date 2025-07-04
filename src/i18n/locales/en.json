@@ -8,24 +8,61 @@
   },
   "hero": {
     "video1": {
-      "subtitle": "Transforming Cities",
-      "title": "Urban Innovation",
-      "description": "Experience the future of urban development with cutting-edge promotional strategies that reshape metropolitan landscapes.",
-      "cta": "Explore Projects"
+      "subtitle": "Luxury Real Estate",
+      "title": "Premium Properties",
+      "description": "Discover exceptional luxury properties and exclusive real estate opportunities that redefine modern living standards.",
+      "cta": "Explore Properties"
     },
     "video2": {
-      "subtitle": "Creative Solutions",
-      "title": "Digital Excellence",
-      "description": "Discover how we blend technology and creativity to deliver exceptional promotional campaigns for modern businesses.",
-      "cta": "View Portfolio"
+      "subtitle": "Architectural Excellence",
+      "title": "Modern Buildings",
+      "description": "Experience cutting-edge architectural design and innovative construction that shapes the future of urban development.",
+      "cta": "View Projects"
     },
     "video3": {
-      "subtitle": "Strategic Growth",
-      "title": "Brand Evolution",
-      "description": "Partner with us to elevate your brand presence through innovative promotional strategies and compelling visual storytelling.",
+      "subtitle": "Exclusive Developments",
+      "title": "Luxury Homes",
+      "description": "Step into a world of sophisticated living with our portfolio of premium residential developments and luxury estates.",
       "cta": "Start Journey"
     },
     "scroll": "SCROLL"
+  },
+  "about": {
+    "subtitle": "Who We Are",
+    "title": "Redefining Urban Excellence",
+    "description": "We are visionaries, architects of tomorrow's cities, and pioneers in luxury real estate development. Our passion drives us to create extraordinary spaces that inspire and elevate the human experience.",
+    "stats": {
+      "projects": "Luxury Projects",
+      "years": "Years Experience",
+      "cities": "Global Cities",
+      "satisfaction": "Client Satisfaction"
+    },
+    "story": {
+      "title": "Our Legacy of Excellence",
+      "paragraph1": "Founded with a vision to transform urban landscapes, Urban Promo has established itself as a leader in luxury real estate development and architectural innovation. Our journey began with a simple belief: that exceptional spaces have the power to inspire extraordinary lives.",
+      "paragraph2": "Today, we continue to push boundaries, creating iconic developments that seamlessly blend luxury, sustainability, and cutting-edge design. Each project tells a story of craftsmanship, attention to detail, and unwavering commitment to excellence.",
+      "cta": "Discover Our Story"
+    },
+    "values": {
+      "title": "Our Core Values",
+      "subtitle": "The principles that guide every decision we make and every project we undertake.",
+      "excellence": {
+        "title": "Excellence",
+        "description": "We pursue perfection in every detail, from initial concept to final delivery, ensuring uncompromising quality in all our developments."
+      },
+      "collaboration": {
+        "title": "Collaboration",
+        "description": "We believe in the power of partnership, working closely with clients, architects, and communities to create shared visions."
+      },
+      "sustainability": {
+        "title": "Sustainability",
+        "description": "Our commitment to environmental responsibility drives us to create developments that harmonize with nature and future generations."
+      },
+      "innovation": {
+        "title": "Innovation",
+        "description": "We embrace cutting-edge technology and forward-thinking design to create spaces that anticipate tomorrow's needs."
+      }
+    }
   },
   "projects": {
     "dropdown": {

@@ -23,7 +23,7 @@ const Hero = () => {
       title: t('hero.video1.title'),
       subtitle: t('hero.video1.subtitle'),
       description: t('hero.video1.description'),
-      videoUrl: "https://videos.pexels.com/video-files/3571264/3571264-uhd_2560_1440_30fps.mp4",
+      videoUrl: "https://videos.pexels.com/video-files/3209828/3209828-uhd_2560_1440_25fps.mp4",
       cta: t('hero.video1.cta')
     },
     {
@@ -31,7 +31,7 @@ const Hero = () => {
       title: t('hero.video2.title'),
       subtitle: t('hero.video2.subtitle'),
       description: t('hero.video2.description'),
-      videoUrl: "https://videos.pexels.com/video-files/3130284/3130284-uhd_2560_1440_30fps.mp4",
+      videoUrl: "https://videos.pexels.com/video-files/3571077/3571077-uhd_2560_1440_30fps.mp4",
       cta: t('hero.video2.cta')
     },
     {
@@ -39,7 +39,7 @@ const Hero = () => {
       title: t('hero.video3.title'),
       subtitle: t('hero.video3.subtitle'),
       description: t('hero.video3.description'),
-      videoUrl: "https://videos.pexels.com/video-files/3571077/3571077-uhd_2560_1440_30fps.mp4",
+      videoUrl: "https://videos.pexels.com/video-files/3209821/3209821-uhd_2560_1440_25fps.mp4",
       cta: t('hero.video3.cta')
     }
   ];

@@ -8,24 +8,61 @@
   },
   "hero": {
     "video1": {
-      "subtitle": "Transformando Ciudades",
-      "title": "Innovación Urbana",
-      "description": "Experimenta el futuro del desarrollo urbano con estrategias promocionales de vanguardia que remodelan los paisajes metropolitanos.",
-      "cta": "Explorar Proyectos"
+      "subtitle": "Bienes Raíces de Lujo",
+      "title": "Propiedades Premium",
+      "description": "Descubre propiedades de lujo excepcionales y oportunidades inmobiliarias exclusivas que redefinen los estándares de vida moderna.",
+      "cta": "Explorar Propiedades"
     },
     "video2": {
-      "subtitle": "Soluciones Creativas",
-      "title": "Excelencia Digital",
-      "description": "Descubre cómo combinamos tecnología y creatividad para entregar campañas promocionales excepcionales para empresas modernas.",
-      "cta": "Ver Portafolio"
+      "subtitle": "Excelencia Arquitectónica",
+      "title": "Edificios Modernos",
+      "description": "Experimenta el diseño arquitectónico de vanguardia y la construcción innovadora que da forma al futuro del desarrollo urbano.",
+      "cta": "Ver Proyectos"
     },
     "video3": {
-      "subtitle": "Crecimiento Estratégico",
-      "title": "Evolución de Marca",
-      "description": "Asóciate con nosotros para elevar la presencia de tu marca a través de estrategias promocionales innovadoras y narrativa visual convincente.",
+      "subtitle": "Desarrollos Exclusivos",
+      "title": "Casas de Lujo",
+      "description": "Entra en un mundo de vida sofisticada con nuestro portafolio de desarrollos residenciales premium y propiedades de lujo.",
       "cta": "Comenzar Viaje"
     },
     "scroll": "DESPLAZAR"
+  },
+  "about": {
+    "subtitle": "Quiénes Somos",
+    "title": "Redefiniendo la Excelencia Urbana",
+    "description": "Somos visionarios, arquitectos de las ciudades del mañana y pioneros en el desarrollo inmobiliario de lujo. Nuestra pasión nos impulsa a crear espacios extraordinarios que inspiran y elevan la experiencia humana.",
+    "stats": {
+      "projects": "Proyectos de Lujo",
+      "years": "Años de Experiencia",
+      "cities": "Ciudades Globales",
+      "satisfaction": "Satisfacción del Cliente"
+    },
+    "story": {
+      "title": "Nuestro Legado de Excelencia",
+      "paragraph1": "Fundado con la visión de transformar paisajes urbanos, Urban Promo se ha establecido como líder en desarrollo inmobiliario de lujo e innovación arquitectónica. Nuestro viaje comenzó con una creencia simple: que los espacios excepcionales tienen el poder de inspirar vidas extraordinarias.",
+      "paragraph2": "Hoy, continuamos empujando límites, creando desarrollos icónicos que mezclan perfectamente lujo, sostenibilidad y diseño de vanguardia. Cada proyecto cuenta una historia de artesanía, atención al detalle y compromiso inquebrantable con la excelencia.",
+      "cta": "Descubrir Nuestra Historia"
+    },
+    "values": {
+      "title": "Nuestros Valores Fundamentales",
+      "subtitle": "Los principios que guían cada decisión que tomamos y cada proyecto que emprendemos.",
+      "excellence": {
+        "title": "Excelencia",
+        "description": "Perseguimos la perfección en cada detalle, desde el concepto inicial hasta la entrega final, asegurando calidad sin compromisos en todos nuestros desarrollos."
+      },
+      "collaboration": {
+        "title": "Colaboración",
+        "description": "Creemos en el poder de la asociación, trabajando estrechamente con clientes, arquitectos y comunidades para crear visiones compartidas."
+      },
+      "sustainability": {
+        "title": "Sostenibilidad",
+        "description": "Nuestro compromiso con la responsabilidad ambiental nos impulsa a crear desarrollos que armonizan con la naturaleza y las generaciones futuras."
+      },
+      "innovation": {
+        "title": "Innovación",
+        "description": "Abrazamos la tecnología de vanguardia y el diseño progresista para crear espacios que anticipan las necesidades del mañana."
+      }
+    }
   },
   "projects": {
     "dropdown": {

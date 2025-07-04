@@ -8,24 +8,61 @@
   },
   "hero": {
     "video1": {
-      "subtitle": "Städte Transformieren",
-      "title": "Urbane Innovation",
-      "description": "Erleben Sie die Zukunft der Stadtentwicklung mit modernsten Werbestrategien, die metropolitane Landschaften neu gestalten.",
-      "cta": "Projekte Erkunden"
+      "subtitle": "Luxus Immobilien",
+      "title": "Premium Eigenschaften",
+      "description": "Entdecken Sie außergewöhnliche Luxusimmobilien und exklusive Immobilienmöglichkeiten, die moderne Lebensstandards neu definieren.",
+      "cta": "Eigenschaften Erkunden"
     },
     "video2": {
-      "subtitle": "Kreative Lösungen",
-      "title": "Digitale Exzellenz",
-      "description": "Entdecken Sie, wie wir Technologie und Kreativität verbinden, um außergewöhnliche Werbekampagnen für moderne Unternehmen zu liefern.",
-      "cta": "Portfolio Ansehen"
+      "subtitle": "Architektonische Exzellenz",
+      "title": "Moderne Gebäude",
+      "description": "Erleben Sie modernste architektonische Gestaltung und innovative Konstruktion, die die Zukunft der Stadtentwicklung prägt.",
+      "cta": "Projekte Ansehen"
     },
     "video3": {
-      "subtitle": "Strategisches Wachstum",
-      "title": "Markenentwicklung",
-      "description": "Arbeiten Sie mit uns zusammen, um Ihre Markenpräsenz durch innovative Werbestrategien und überzeugendes visuelles Storytelling zu steigern.",
+      "subtitle": "Exklusive Entwicklungen",
+      "title": "Luxushäuser",
+      "description": "Treten Sie ein in eine Welt des anspruchsvollen Lebens mit unserem Portfolio von Premium-Wohnentwicklungen und Luxusanwesen.",
       "cta": "Reise Beginnen"
     },
     "scroll": "SCROLLEN"
+  },
+  "about": {
+    "subtitle": "Wer Wir Sind",
+    "title": "Urbane Exzellenz Neu Definieren",
+    "description": "Wir sind Visionäre, Architekten der Städte von morgen und Pioniere in der Luxusimmobilienentwicklung. Unsere Leidenschaft treibt uns an, außergewöhnliche Räume zu schaffen, die inspirieren und die menschliche Erfahrung erheben.",
+    "stats": {
+      "projects": "Luxusprojekte",
+      "years": "Jahre Erfahrung",
+      "cities": "Globale Städte",
+      "satisfaction": "Kundenzufriedenheit"
+    },
+    "story": {
+      "title": "Unser Erbe der Exzellenz",
+      "paragraph1": "Gegründet mit der Vision, urbane Landschaften zu transformieren, hat sich Urban Promo als Marktführer in der Luxusimmobilienentwicklung und architektonischen Innovation etabliert. Unsere Reise begann mit einem einfachen Glauben: dass außergewöhnliche Räume die Macht haben, außergewöhnliche Leben zu inspirieren.",
+      "paragraph2": "Heute setzen wir weiterhin Grenzen, schaffen ikonische Entwicklungen, die Luxus, Nachhaltigkeit und modernste Gestaltung nahtlos verbinden. Jedes Projekt erzählt eine Geschichte von Handwerkskunst, Aufmerksamkeit für Details und unerschütterlichem Engagement für Exzellenz.",
+      "cta": "Unsere Geschichte Entdecken"
+    },
+    "values": {
+      "title": "Unsere Grundwerte",
+      "subtitle": "Die Prinzipien, die jede Entscheidung leiten, die wir treffen, und jedes Projekt, das wir unternehmen.",
+      "excellence": {
+        "title": "Exzellenz",
+        "description": "Wir streben Perfektion in jedem Detail an, vom ersten Konzept bis zur finalen Lieferung, und gewährleisten kompromisslose Qualität in allen unseren Entwicklungen."
+      },
+      "collaboration": {
+        "title": "Zusammenarbeit",
+        "description": "Wir glauben an die Kraft der Partnerschaft und arbeiten eng mit Kunden, Architekten und Gemeinden zusammen, um gemeinsame Visionen zu schaffen."
+      },
+      "sustainability": {
+        "title": "Nachhaltigkeit",
+        "description": "Unser Engagement für Umweltverantwortung treibt uns an, Entwicklungen zu schaffen, die mit der Natur und zukünftigen Generationen harmonieren."
+      },
+      "innovation": {
+        "title": "Innovation",
+        "description": "Wir umarmen modernste Technologie und zukunftsweisendes Design, um Räume zu schaffen, die die Bedürfnisse von morgen antizipieren."
+      }
+    }
   },
   "projects": {
     "dropdown": {

@@ -8,24 +8,61 @@
   },
   "hero": {
     "video1": {
-      "subtitle": "Transformer les Villes",
-      "title": "Innovation Urbaine",
-      "description": "Découvrez l'avenir du développement urbain avec des stratégies promotionnelles de pointe qui transforment les paysages métropolitains.",
-      "cta": "Explorer les Projets"
+      "subtitle": "Immobilier de Luxe",
+      "title": "Propriétés Premium",
+      "description": "Découvrez des propriétés de luxe exceptionnelles et des opportunités immobilières exclusives qui redéfinissent les standards de vie moderne.",
+      "cta": "Explorer les Propriétés"
     },
     "video2": {
-      "subtitle": "Solutions Créatives",
-      "title": "Excellence Numérique",
-      "description": "Découvrez comment nous mélangeons technologie et créativité pour offrir des campagnes promotionnelles exceptionnelles aux entreprises modernes.",
-      "cta": "Voir le Portfolio"
+      "subtitle": "Excellence Architecturale",
+      "title": "Bâtiments Modernes",
+      "description": "Découvrez un design architectural de pointe et une construction innovante qui façonne l'avenir du développement urbain.",
+      "cta": "Voir les Projets"
     },
     "video3": {
-      "subtitle": "Croissance Stratégique",
-      "title": "Évolution de Marque",
-      "description": "Partenaire avec nous pour élever votre présence de marque grâce à des stratégies promotionnelles innovantes et une narration visuelle convaincante.",
+      "subtitle": "Développements Exclusifs",
+      "title": "Maisons de Luxe",
+      "description": "Entrez dans un monde de vie sophistiquée avec notre portefeuille de développements résidentiels premium et de domaines de luxe.",
       "cta": "Commencer le Voyage"
     },
     "scroll": "DÉFILER"
+  },
+  "about": {
+    "subtitle": "Qui Nous Sommes",
+    "title": "Redéfinir l'Excellence Urbaine",
+    "description": "Nous sommes des visionnaires, des architectes des villes de demain et des pionniers du développement immobilier de luxe. Notre passion nous pousse à créer des espaces extraordinaires qui inspirent et élèvent l'expérience humaine.",
+    "stats": {
+      "projects": "Projets de Luxe",
+      "years": "Années d'Expérience",
+      "cities": "Villes Mondiales",
+      "satisfaction": "Satisfaction Client"
+    },
+    "story": {
+      "title": "Notre Héritage d'Excellence",
+      "paragraph1": "Fondé avec la vision de transformer les paysages urbains, Urban Promo s'est établi comme un leader dans le développement immobilier de luxe et l'innovation architecturale. Notre voyage a commencé avec une croyance simple : que les espaces exceptionnels ont le pouvoir d'inspirer des vies extraordinaires.",
+      "paragraph2": "Aujourd'hui, nous continuons à repousser les limites, créant des développements iconiques qui mélangent harmonieusement luxe, durabilité et design de pointe. Chaque projet raconte une histoire d'artisanat, d'attention aux détails et d'engagement inébranlable envers l'excellence.",
+      "cta": "Découvrir Notre Histoire"
+    },
+    "values": {
+      "title": "Nos Valeurs Fondamentales",
+      "subtitle": "Les principes qui guident chaque décision que nous prenons et chaque projet que nous entreprenons.",
+      "excellence": {
+        "title": "Excellence",
+        "description": "Nous poursuivons la perfection dans chaque détail, du concept initial à la livraison finale, garantissant une qualité sans compromis dans tous nos développements."
+      },
+      "collaboration": {
+        "title": "Collaboration",
+        "description": "Nous croyons au pouvoir du partenariat, travaillant étroitement avec les clients, architectes et communautés pour créer des visions partagées."
+      },
+      "sustainability": {
+        "title": "Durabilité",
+        "description": "Notre engagement envers la responsabilité environnementale nous pousse à créer des développements qui s'harmonisent avec la nature et les générations futures."
+      },
+      "innovation": {
+        "title": "Innovation",
+        "description": "Nous embrassons la technologie de pointe et le design avant-gardiste pour créer des espaces qui anticipent les besoins de demain."
+      }
+    }
   },
   "projects": {
     "dropdown": {

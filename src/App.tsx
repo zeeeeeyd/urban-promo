@@ -2,6 +2,7 @@ import { useEffect } from 'react';
 import './i18n';
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
+import About from "./components/About";
 
 function App() {
   useEffect(() => {
@@ -22,6 +23,7 @@ function App() {
     <>
       <Navbar />
       <Hero />
+      <About />
     </>
   );
 }
