@@ -288,7 +288,7 @@ const About = () => {
             <div className={`space-y-6 transition-all duration-700 ${
               isVideoExpanded ? 'opacity-0' : 'opacity-100'
             }`}>
-              <h3 className="text-2xl font-bold text-gray-900">
+              <h3 className="text-xl font-bold text-gray-900">
                 {t('about.story.title')}
               </h3>
               <p className="text-md text-gray-600 leading-relaxed">

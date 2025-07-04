@@ -57,11 +57,11 @@ const Hero = () => {
   }, [currentVideoIndex, t]);
 
   useEffect(() => {
-    // Auto-advance videos every 8 seconds
+    // Auto-advance videos every 15 seconds
     if (isPlaying) {
       const interval = setInterval(() => {
         setCurrentVideoIndex((prev) => (prev + 1) % videoContent.length);
-      }, 8000);
+      }, 15000);
 
       return () => clearInterval(interval);
     }

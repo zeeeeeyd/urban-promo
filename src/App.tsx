@@ -3,6 +3,7 @@ import './i18n';
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import About from "./components/About";
+import PropertyGallery from './components/PropertyGallery';
 
 function App() {
   useEffect(() => {
@@ -24,6 +25,7 @@ function App() {
       <Navbar />
       <Hero />
       <About />
+      <PropertyGallery />
     </>
   );
 }
