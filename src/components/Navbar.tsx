@@ -42,19 +42,20 @@ const Navbar = () => {
       />
       
       <nav 
-        className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 ease-in-out ${
+        className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 ease-in-out gold-enhanced gold-glow ${
           isVisible ? 'translate-y-0 opacity-100' : '-translate-y-full opacity-0'
         }`}
         style={{
-          background: 'linear-gradient(180deg, rgba(24,24,27,0.9) 0%, rgba(24,24,27,0.7) 50%, rgba(24,24,27,0.5) 100%)',
-          backdropFilter: 'blur(10px)',
+          background: 'linear-gradient(180deg, rgba(254,243,199,0.95) 0%, rgba(254,243,199,0.9) 50%, rgba(254,243,199,0.85) 100%)',
+          backdropFilter: 'blur(15px)',
+          borderBottom: '1px solid rgba(251,191,36,0.2)'
         }}
       >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16">
             {/* Logo */}
             <div className="flex-shrink-0">
-              <div className="text-white text-xl font-bold tracking-wide" style={{ fontFamily: 'Inter, system-ui, sans-serif' }}>
+              <div className="text-gray-900 text-xl font-bold tracking-wide gold-text-shadow" style={{ fontFamily: 'Inter, system-ui, sans-serif' }}>
                 URBAN PROMO
               </div>
             </div>
@@ -66,7 +67,7 @@ const Navbar = () => {
                   <div key={item.name} className={item.hasDropdown ? 'relative group' : ''}>
                     <a
                       href={item.href}
-                      className="text-gray-300 hover:text-white px-3 py-2 text-sm font-medium transition-colors duration-200 relative group/link"
+                      className="text-gray-600 hover:text-gray-900 px-3 py-2 text-sm font-medium transition-colors duration-200 relative group/link"
                       style={{ fontFamily: 'Inter, system-ui, sans-serif' }}
                     >
                       {item.name}
@@ -82,14 +83,14 @@ const Navbar = () => {
                 <LanguageSelector />
                 
                 <button 
-                  className="border border-yellow-400 text-yellow-400 hover:bg-yellow-400 hover:text-zinc-900 px-6 py-2 text-sm font-medium transition-all duration-200 transform hover:scale-105 shadow-lg"
+                  className="border border-yellow-400 text-yellow-600 hover:bg-yellow-400 hover:text-white px-6 py-2 text-sm font-medium transition-all duration-200 transform hover:scale-105 shadow-lg gold-glow rounded-lg"
                   style={{ fontFamily: 'Inter, system-ui, sans-serif' }}
                 >
                   {t('nav.contact')}
                 </button>
                 
                 {/* Location Icon */}
-                <button className="text-yellow-400 hover:text-white p-2 hover:bg-white/10 transition-all duration-200">
+                <button className="text-yellow-500 hover:text-yellow-600 p-2 hover:bg-yellow-50 transition-all duration-200 rounded-lg">
                   <MapPin size={20} />
                 </button>
               </div>
@@ -100,7 +101,7 @@ const Navbar = () => {
               <LanguageSelector />
               <button
                 onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-                className="inline-flex items-center justify-center p-2 text-gray-400 hover:text-white hover:bg-white/10 transition-all duration-200"
+                className="inline-flex items-center justify-center p-2 text-gray-600 hover:text-gray-900 hover:bg-gray-100 transition-all duration-200 rounded-lg"
               >
                 {isMobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
               </button>
@@ -114,8 +115,9 @@ const Navbar = () => {
             isMobileMenuOpen ? 'max-h-96 opacity-100' : 'max-h-0 opacity-0'
           }`}
           style={{
-            background: 'linear-gradient(180deg, rgba(24,24,27,0.95) 0%, rgba(24,24,27,0.9) 100%)',
-            backdropFilter: 'blur(15px)'
+            background: 'linear-gradient(180deg, rgba(254,243,199,0.98) 0%, rgba(254,243,199,0.95) 100%)',
+            backdropFilter: 'blur(15px)',
+            borderTop: '1px solid rgba(251,191,36,0.2)'
           }}
         >
           <div className="px-4 pt-2 pb-6 space-y-2">
@@ -123,7 +125,7 @@ const Navbar = () => {
               <a
                 key={item.name}
                 href={item.href}
-                className="block text-gray-300 hover:text-white px-3 py-3 text-base font-medium transition-colors duration-200 hover:bg-white/5"
+                className="block text-gray-600 hover:text-gray-900 px-3 py-3 text-base font-medium transition-colors duration-200 hover:bg-yellow-50 rounded-lg"
                 style={{ fontFamily: 'Inter, system-ui, sans-serif' }}
                 onClick={() => setIsMobileMenuOpen(false)}
               >
@@ -133,13 +135,13 @@ const Navbar = () => {
             
             <div className="flex items-center space-x-4 px-3 pt-4">
               <button 
-                className="flex-1 bg-yellow-400 hover:bg-yellow-300 text-zinc-900 px-6 py-3 text-sm font-medium transition-all duration-200 transform hover:scale-105 shadow-lg"
+                className="flex-1 bg-yellow-400 hover:bg-yellow-500 text-white px-6 py-3 text-sm font-medium transition-all duration-200 transform hover:scale-105 shadow-lg rounded-lg gold-glow"
                 style={{ fontFamily: 'Inter, system-ui, sans-serif' }}
               >
                 {t('nav.contact')}
               </button>
               
-              <button className="text-yellow-400 hover:text-white p-3 hover:bg-white/10 transition-all duration-200">
+              <button className="text-yellow-500 hover:text-yellow-600 p-3 hover:bg-yellow-50 transition-all duration-200 rounded-lg">
                 <MapPin size={20} />
               </button>
             </div>
