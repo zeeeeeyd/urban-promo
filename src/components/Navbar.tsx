@@ -42,20 +42,20 @@ const Navbar = () => {
       />
       
       <nav 
-        className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 ease-in-out gold-enhanced gold-glow ${
+        className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 ease-in-out ${
           isVisible ? 'translate-y-0 opacity-100' : '-translate-y-full opacity-0'
         }`}
         style={{
-          background: 'linear-gradient(180deg, rgba(254,243,199,0.95) 0%, rgba(254,243,199,0.9) 50%, rgba(254,243,199,0.85) 100%)',
-          backdropFilter: 'blur(15px)',
-          borderBottom: '1px solid rgba(251,191,36,0.2)'
+          background: 'linear-gradient(180deg, rgba(255,255,255,0.95) 0%, rgba(255,255,255,0.9) 50%, rgba(255,255,255,0.85) 100%)',
+          backdropFilter: 'blur(10px)',
+          borderBottom: '1px solid rgba(0,0,0,0.1)'
         }}
       >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16">
             {/* Logo */}
             <div className="flex-shrink-0">
-              <div className="text-gray-900 text-xl font-bold tracking-wide gold-text-shadow" style={{ fontFamily: 'Inter, system-ui, sans-serif' }}>
+              <div className="text-gray-900 text-xl font-bold tracking-wide" style={{ fontFamily: 'Inter, system-ui, sans-serif' }}>
                 URBAN PROMO
               </div>
             </div>
@@ -83,7 +83,7 @@ const Navbar = () => {
                 <LanguageSelector />
                 
                 <button 
-                  className="border border-yellow-400 text-yellow-600 hover:bg-yellow-400 hover:text-white px-6 py-2 text-sm font-medium transition-all duration-200 transform hover:scale-105 shadow-lg gold-glow rounded-lg"
+                  className="border border-yellow-400 text-yellow-600 hover:bg-yellow-400 hover:text-white px-6 py-2 text-sm font-medium transition-all duration-200 transform hover:scale-105 shadow-lg"
                   style={{ fontFamily: 'Inter, system-ui, sans-serif' }}
                 >
                   {t('nav.contact')}
@@ -115,9 +115,9 @@ const Navbar = () => {
             isMobileMenuOpen ? 'max-h-96 opacity-100' : 'max-h-0 opacity-0'
           }`}
           style={{
-            background: 'linear-gradient(180deg, rgba(254,243,199,0.98) 0%, rgba(254,243,199,0.95) 100%)',
+            background: 'linear-gradient(180deg, rgba(255,255,255,0.98) 0%, rgba(255,255,255,0.95) 100%)',
             backdropFilter: 'blur(15px)',
-            borderTop: '1px solid rgba(251,191,36,0.2)'
+            borderTop: '1px solid rgba(0,0,0,0.1)'
           }}
         >
           <div className="px-4 pt-2 pb-6 space-y-2">
@@ -125,7 +125,7 @@ const Navbar = () => {
               <a
                 key={item.name}
                 href={item.href}
-                className="block text-gray-600 hover:text-gray-900 px-3 py-3 text-base font-medium transition-colors duration-200 hover:bg-yellow-50 rounded-lg"
+                className="block text-gray-600 hover:text-gray-900 px-3 py-3 text-base font-medium transition-colors duration-200 hover:bg-gray-50 rounded-lg"
                 style={{ fontFamily: 'Inter, system-ui, sans-serif' }}
                 onClick={() => setIsMobileMenuOpen(false)}
               >
@@ -135,7 +135,7 @@ const Navbar = () => {
             
             <div className="flex items-center space-x-4 px-3 pt-4">
               <button 
-                className="flex-1 bg-yellow-400 hover:bg-yellow-500 text-white px-6 py-3 text-sm font-medium transition-all duration-200 transform hover:scale-105 shadow-lg rounded-lg gold-glow"
+                className="flex-1 bg-yellow-400 hover:bg-yellow-500 text-white px-6 py-3 text-sm font-medium transition-all duration-200 transform hover:scale-105 shadow-lg rounded-lg"
                 style={{ fontFamily: 'Inter, system-ui, sans-serif' }}
               >
                 {t('nav.contact')}
