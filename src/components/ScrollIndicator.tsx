@@ -6,10 +6,9 @@ const ScrollIndicator = () => {
   const [activeSection, setActiveSection] = useState(0);
 
   const sections = [
-    { id: 'hero', name: t('nav.home') || 'Home' },
+    { id: 'hero', name: 'Home' },
     { id: 'about', name: t('nav.about') },
     { id: 'projects', name: t('nav.projects') },
-    { id: 'showcase', name: t('nav.showcase') },
     { id: 'lifestyle', name: t('nav.world') },
     { id: 'faq', name: 'FAQ' },
     { id: 'contact', name: t('nav.contact') }
@@ -17,17 +16,21 @@ const ScrollIndicator = () => {
 
   useEffect(() => {
     const handleScroll = () => {
-      const scrollPosition = window.scrollY + window.innerHeight / 2;
+      const scrollPosition = window.scrollY + 200; // Offset for better detection
+      
+      let currentSection = 0;
       
       sections.forEach((section, index) => {
         const element = document.getElementById(section.id);
         if (element) {
-          const { offsetTop, offsetHeight } = element;
-          if (scrollPosition >= offsetTop && scrollPosition < offsetTop + offsetHeight) {
-            setActiveSection(index);
+          const { offsetTop } = element;
+          if (scrollPosition >= offsetTop) {
+            currentSection = index;
           }
         }
       });
+      
+      setActiveSection(currentSection);
     };
 
     window.addEventListener('scroll', handleScroll);
@@ -39,9 +42,10 @@ const ScrollIndicator = () => {
   const scrollToSection = (sectionId: string) => {
     const element = document.getElementById(sectionId);
     if (element) {
-      element.scrollIntoView({ 
-        behavior: 'smooth',
-        block: 'start'
+      const offsetTop = element.offsetTop - 80; // Account for navbar height
+      window.scrollTo({
+        top: offsetTop,
+        behavior: 'smooth'
       });
     }
   };
@@ -53,7 +57,7 @@ const ScrollIndicator = () => {
           <div key={section.id} className="relative group">
             <button
               onClick={() => scrollToSection(section.id)}
-              className={`w-3 h-3 rounded-full transition-all duration-300 ${
+              className={`w-3 h-3 rounded-full transition-all duration-300 scroll-indicator ${
                 activeSection === index
                   ? 'bg-yellow-400 scale-125'
                   : 'bg-gray-300 hover:bg-gray-400'

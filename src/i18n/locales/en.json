@@ -1,6 +1,5 @@
 {
   "nav": {
-    "home": "Home",
     "about": "About",
     "projects": "Projects",
     "showcase": "Showcase",
@@ -156,12 +155,6 @@
     "subtitle": "Get In Touch",
     "title": "Let's Create Something Extraordinary Together",
     "description": "Ready to explore luxury living or discuss investment opportunities? Our team of experts is here to guide you through every step of your Urban Promo journey.",
-    "quickContact": "Quick Contact Options",
-    "stats": {
-      "support": "Support Available",
-      "response": "Response Time",
-      "clients": "Happy Clients"
-    },
     "info": {
       "title": "Contact Information",
       "phone": {
