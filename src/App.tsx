@@ -4,6 +4,10 @@ import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import About from "./components/About";
 import PropertyGallery from './components/PropertyGallery';
+import UrbanPromoLifestyle from './components/UrbanPromoLifestyle';
+import Contact from './components/Contact';
+import FAQ from './components/FAQ';
+import Footer from './components/Footer';
 
 function App() {
   useEffect(() => {
@@ -26,6 +30,10 @@ function App() {
       <Hero />
       <About />
       <PropertyGallery />
+      <UrbanPromoLifestyle />
+      <FAQ />
+      <Contact />
+      <Footer />
     </>
   );
 }

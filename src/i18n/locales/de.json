@@ -91,6 +91,148 @@
       "viewAll": "Alle Projekte Ansehen"
     }
   },
+  "lifestyle": {
+    "subtitle": "Urban Promo Lebensstil",
+    "title": "Erleben Sie Außergewöhnliches Leben",
+    "description": "Entdecken Sie, wie Urban Promo mehr als nur Gebäude schafft – wir schaffen Erfahrungen, fördern Gemeinschaften und inspirieren einen Lebensstil, der das Beste des modernen urbanen Lebens feiert.",
+    "explore": "Mehr Erkunden",
+    "cta": "Entdecken Sie Ihren Lebensstil",
+    "videos": {
+      "celebrating": {
+        "title": "Feiern Sie die besonderen Momente des Lebens",
+        "subtitle": "Gemeinschaft und Verbindung",
+        "description": "Unsere Entwicklungen sind darauf ausgelegt, Menschen zusammenzubringen und Räume zu schaffen, in denen Freundschaften gedeihen und Erinnerungen entstehen. Von Dachterrassen-Versammlungen bis hin zu intimen Feiern wird jeder Moment außergewöhnlich."
+      },
+      "inspiring": {
+        "title": "Das Beste des Lebens inspirieren",
+        "subtitle": "Luxus und Komfort",
+        "description": "Erleben Sie unvergleichlichen Komfort und Raffinesse in jedem Detail. Unsere Räume sind sorgfältig gestaltet, um Ihr bestes Leben zu inspirieren und Luxus-Annehmlichkeiten mit funktionaler Eleganz zu verbinden."
+      },
+      "curated": {
+        "title": "Kuratierte Erfahrungen nur für Sie",
+        "subtitle": "Personalisiertes Leben",
+        "description": "Jeder Bewohner genießt Zugang zu exklusiven Erfahrungen und personalisierten Dienstleistungen. Von Concierge-Unterstützung bis hin zu kuratierten Veranstaltungen stellen wir sicher, dass Ihr Lebensstil so einzigartig ist wie Sie."
+      }
+    }
+  },
+  "faq": {
+    "subtitle": "Häufig Gestellte Fragen",
+    "title": "Alles Was Sie Wissen Müssen",
+    "description": "Finden Sie Antworten auf die häufigsten Fragen zu Urban Promos Luxusentwicklungen, Investitionsmöglichkeiten und exklusiven Dienstleistungen.",
+    "items": [
+      {
+        "question": "Was macht Urban Promo Entwicklungen einzigartig?",
+        "answer": "Urban Promo Entwicklungen zeichnen sich durch unser Engagement für architektonische Exzellenz, nachhaltiges Design und Luxus-Annehmlichkeiten aus. Jedes Projekt ist sorgfältig gestaltet, um eine unvergleichliche Lebenserfahrung zu bieten, die moderne Raffinesse mit Umweltverantwortung verbindet."
+      },
+      {
+        "question": "Welche Investitionsmöglichkeiten sind verfügbar?",
+        "answer": "Wir bieten verschiedene Investitionsmöglichkeiten einschließlich Vorbau-Käufen, Luxus-Mietimmobilien und gewerblichen Immobilieninvestitionen. Unser Team bietet umfassende Marktanalysen und personalisierte Investitionsstrategien zur Maximierung Ihrer Renditen."
+      },
+      {
+        "question": "Wie funktioniert der Kaufprozess?",
+        "answer": "Unser optimierter Kaufprozess beginnt mit einer Beratung zum Verständnis Ihrer Bedürfnisse, gefolgt von Immobilienbesichtigungen, Finanzplanungsunterstützung und rechtlicher Unterstützung. Wir führen Sie durch jeden Schritt, um eine reibungslose und transparente Transaktion zu gewährleisten."
+      },
+      {
+        "question": "Welche Annehmlichkeiten sind in Urban Promo Immobilien enthalten?",
+        "answer": "Unsere Immobilien verfügen über Weltklasse-Annehmlichkeiten einschließlich Fitnesszentren, Dachterrassen, Concierge-Services, Smart-Home-Technologie und exklusive Bewohner-Lounges. Jede Entwicklung ist darauf ausgelegt, eine komplette Luxus-Lebenserfahrung zu bieten."
+      },
+      {
+        "question": "Bieten Sie Immobilienverwaltungsdienstleistungen an?",
+        "answer": "Ja, wir bieten umfassende Immobilienverwaltungsdienstleistungen einschließlich Wartung, Mieterbeziehungen, Finanzberichterstattung und Asset-Optimierung. Unser erfahrenes Team stellt sicher, dass Ihre Investition gut gepflegt und profitabel ist."
+      },
+      {
+        "question": "Welche Nachhaltigkeitsmerkmale werden integriert?",
+        "answer": "Alle Urban Promo Entwicklungen integrieren grüne Bautechnologien, energieeffiziente Systeme, nachhaltige Materialien und intelligentes Wassermanagement. Wir sind verpflichtet, umweltverantwortliche Luxus-Lebensräume zu schaffen."
+      }
+    ],
+    "cta": {
+      "title": "Haben Sie noch Fragen?",
+      "description": "Unser Expertenteam ist hier, um Ihnen bei weiteren Fragen zu unseren Luxusentwicklungen und Dienstleistungen zu helfen.",
+      "button": "Kontaktieren Sie Unsere Experten"
+    }
+  },
+  "contact": {
+    "subtitle": "Kontakt Aufnehmen",
+    "title": "Lassen Sie Uns Gemeinsam Etwas Außergewöhnliches Schaffen",
+    "description": "Bereit, luxuriöses Leben zu erkunden oder Investitionsmöglichkeiten zu besprechen? Unser Expertenteam ist hier, um Sie durch jeden Schritt Ihrer Urban Promo Reise zu führen.",
+    "info": {
+      "title": "Kontaktinformationen",
+      "phone": {
+        "title": "Telefon",
+        "description": "Sprechen Sie mit unseren Experten"
+      },
+      "email": {
+        "title": "E-Mail",
+        "description": "Senden Sie uns eine Nachricht"
+      },
+      "address": {
+        "title": "Adresse",
+        "description": "Besuchen Sie unseren Showroom"
+      }
+    },
+    "form": {
+      "name": "Vollständiger Name",
+      "namePlaceholder": "Geben Sie Ihren vollständigen Namen ein",
+      "email": "E-Mail-Adresse",
+      "emailPlaceholder": "Geben Sie Ihre E-Mail-Adresse ein",
+      "phone": "Telefonnummer",
+      "phonePlaceholder": "Geben Sie Ihre Telefonnummer ein",
+      "subject": "Betreff",
+      "subjectPlaceholder": "Wählen Sie einen Betreff",
+      "subjects": {
+        "general": "Allgemeine Anfrage",
+        "investment": "Investitionsmöglichkeiten",
+        "partnership": "Partnerschaft",
+        "media": "Medien & Presse"
+      },
+      "message": "Nachricht",
+      "messagePlaceholder": "Erzählen Sie uns von Ihrem Projekt oder Ihrer Anfrage...",
+      "submit": "Nachricht Senden"
+    },
+    "success": {
+      "title": "Nachricht Erfolgreich Gesendet!",
+      "message": "Vielen Dank, dass Sie uns kontaktiert haben. Wir werden Ihnen innerhalb von 24 Stunden antworten."
+    }
+  },
+  "footer": {
+    "company": {
+      "description": "Führend in der Zukunft der Luxusimmobilienentwicklung mit innovativem Design, nachhaltigen Praktiken und kompromissloser Qualität."
+    },
+    "social": {
+      "title": "Folgen Sie Uns"
+    },
+    "quickLinks": {
+      "title": "Schnelle Links",
+      "about": "Über Uns",
+      "projects": "Projekte",
+      "showcase": "Schaufenster",
+      "lifestyle": "Lebensstil",
+      "contact": "Kontakt"
+    },
+    "services": {
+      "title": "Dienstleistungen",
+      "development": "Immobilienentwicklung",
+      "investment": "Investitionsberatung",
+      "consulting": "Architekturberatung",
+      "management": "Immobilienverwaltung",
+      "design": "Innenarchitektur"
+    },
+    "contact": {
+      "title": "Kontakt Info"
+    },
+    "newsletter": {
+      "title": "Newsletter",
+      "placeholder": "Geben Sie Ihre E-Mail ein",
+      "subscribe": "Abonnieren"
+    },
+    "copyright": "Alle Rechte vorbehalten.",
+    "legal": {
+      "privacy": "Datenschutzrichtlinie",
+      "terms": "Nutzungsbedingungen",
+      "cookies": "Cookie-Richtlinie"
+    },
+    "backToTop": "Nach Oben"
+  },
   "languages": {
     "en": "English",
     "fr": "Français",

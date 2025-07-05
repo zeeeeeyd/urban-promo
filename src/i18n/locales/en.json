@@ -91,6 +91,148 @@
       "viewAll": "View All Projects"
     }
   },
+  "lifestyle": {
+    "subtitle": "Urban Promo Way of Life",
+    "title": "Experience Extraordinary Living",
+    "description": "Discover how Urban Promo creates more than just buildings – we craft experiences, foster communities, and inspire a lifestyle that celebrates the best of modern urban living.",
+    "explore": "Explore More",
+    "cta": "Discover Your Lifestyle",
+    "videos": {
+      "celebrating": {
+        "title": "Celebrate life's special moments",
+        "subtitle": "Community & Connection",
+        "description": "Our developments are designed to bring people together, creating spaces where friendships flourish and memories are made. From rooftop gatherings to intimate celebrations, every moment becomes extraordinary."
+      },
+      "inspiring": {
+        "title": "Inspiring the best of living",
+        "subtitle": "Luxury & Comfort",
+        "description": "Experience unparalleled comfort and sophistication in every detail. Our spaces are thoughtfully designed to inspire your best life, combining luxury amenities with functional elegance."
+      },
+      "curated": {
+        "title": "Curated experiences just for you",
+        "subtitle": "Personalized Living",
+        "description": "Every resident enjoys access to exclusive experiences and personalized services. From concierge assistance to curated events, we ensure your lifestyle is as unique as you are."
+      }
+    }
+  },
+  "faq": {
+    "subtitle": "Frequently Asked Questions",
+    "title": "Everything You Need to Know",
+    "description": "Find answers to the most common questions about Urban Promo's luxury developments, investment opportunities, and exclusive services.",
+    "items": [
+      {
+        "question": "What makes Urban Promo developments unique?",
+        "answer": "Urban Promo developments stand out through our commitment to architectural excellence, sustainable design, and luxury amenities. Each project is carefully crafted to provide an unparalleled living experience that combines modern sophistication with environmental responsibility."
+      },
+      {
+        "question": "What investment opportunities are available?",
+        "answer": "We offer various investment opportunities including pre-construction purchases, luxury rental properties, and commercial real estate investments. Our team provides comprehensive market analysis and personalized investment strategies to maximize your returns."
+      },
+      {
+        "question": "How does the purchasing process work?",
+        "answer": "Our streamlined purchasing process begins with a consultation to understand your needs, followed by property tours, financial planning assistance, and legal support. We guide you through every step to ensure a smooth and transparent transaction."
+      },
+      {
+        "question": "What amenities are included in Urban Promo properties?",
+        "answer": "Our properties feature world-class amenities including fitness centers, rooftop terraces, concierge services, smart home technology, and exclusive resident lounges. Each development is designed to provide a complete luxury lifestyle experience."
+      },
+      {
+        "question": "Do you offer property management services?",
+        "answer": "Yes, we provide comprehensive property management services including maintenance, tenant relations, financial reporting, and asset optimization. Our experienced team ensures your investment is well-maintained and profitable."
+      },
+      {
+        "question": "What sustainability features are incorporated?",
+        "answer": "All Urban Promo developments incorporate green building technologies, energy-efficient systems, sustainable materials, and smart water management. We're committed to creating environmentally responsible luxury living spaces."
+      }
+    ],
+    "cta": {
+      "title": "Still have questions?",
+      "description": "Our expert team is here to help you with any additional questions about our luxury developments and services.",
+      "button": "Contact Our Experts"
+    }
+  },
+  "contact": {
+    "subtitle": "Get In Touch",
+    "title": "Let's Create Something Extraordinary Together",
+    "description": "Ready to explore luxury living or discuss investment opportunities? Our team of experts is here to guide you through every step of your Urban Promo journey.",
+    "info": {
+      "title": "Contact Information",
+      "phone": {
+        "title": "Phone",
+        "description": "Speak with our experts"
+      },
+      "email": {
+        "title": "Email",
+        "description": "Send us a message"
+      },
+      "address": {
+        "title": "Address",
+        "description": "Visit our showroom"
+      }
+    },
+    "form": {
+      "name": "Full Name",
+      "namePlaceholder": "Enter your full name",
+      "email": "Email Address",
+      "emailPlaceholder": "Enter your email address",
+      "phone": "Phone Number",
+      "phonePlaceholder": "Enter your phone number",
+      "subject": "Subject",
+      "subjectPlaceholder": "Select a subject",
+      "subjects": {
+        "general": "General Inquiry",
+        "investment": "Investment Opportunities",
+        "partnership": "Partnership",
+        "media": "Media & Press"
+      },
+      "message": "Message",
+      "messagePlaceholder": "Tell us about your project or inquiry...",
+      "submit": "Send Message"
+    },
+    "success": {
+      "title": "Message Sent Successfully!",
+      "message": "Thank you for contacting us. We'll get back to you within 24 hours."
+    }
+  },
+  "footer": {
+    "company": {
+      "description": "Leading the future of luxury real estate development with innovative design, sustainable practices, and uncompromising quality."
+    },
+    "social": {
+      "title": "Follow Us"
+    },
+    "quickLinks": {
+      "title": "Quick Links",
+      "about": "About Us",
+      "projects": "Projects",
+      "showcase": "Showcase",
+      "lifestyle": "Lifestyle",
+      "contact": "Contact"
+    },
+    "services": {
+      "title": "Services",
+      "development": "Real Estate Development",
+      "investment": "Investment Consulting",
+      "consulting": "Architectural Consulting",
+      "management": "Property Management",
+      "design": "Interior Design"
+    },
+    "contact": {
+      "title": "Contact Info"
+    },
+    "newsletter": {
+      "title": "Newsletter",
+      "placeholder": "Enter your email",
+      "subscribe": "Subscribe"
+    },
+    "copyright": "All rights reserved.",
+    "legal": {
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service",
+      "cookies": "Cookie Policy"
+    },
+    "backToTop": "Back to Top"
+  },
   "languages": {
     "en": "English",
     "fr": "Français",
