@@ -1,5 +1,6 @@
 {
   "nav": {
+    "home": "Home",
     "about": "About",
     "projects": "Projects",
     "showcase": "Showcase",
@@ -155,6 +156,12 @@
     "subtitle": "Get In Touch",
     "title": "Let's Create Something Extraordinary Together",
     "description": "Ready to explore luxury living or discuss investment opportunities? Our team of experts is here to guide you through every step of your Urban Promo journey.",
+    "quickContact": "Quick Contact Options",
+    "stats": {
+      "support": "Support Available",
+      "response": "Response Time",
+      "clients": "Happy Clients"
+    },
     "info": {
       "title": "Contact Information",
       "phone": {
@@ -192,6 +199,23 @@
     "success": {
       "title": "Message Sent Successfully!",
       "message": "Thank you for contacting us. We'll get back to you within 24 hours."
+    },
+    "popup": {
+      "title": "Contact Us Now",
+      "subtitle": "Choose your preferred way to reach us",
+      "phone": {
+        "title": "Call Us",
+        "description": "Speak directly with our team"
+      },
+      "whatsapp": {
+        "title": "WhatsApp",
+        "description": "Chat with us instantly"
+      },
+      "instagram": {
+        "title": "Instagram",
+        "description": "Follow our latest updates"
+      },
+      "footer": "We're here to help you 24/7"
     }
   },
   "footer": {

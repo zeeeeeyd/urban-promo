@@ -8,6 +8,8 @@ import UrbanPromoLifestyle from './components/UrbanPromoLifestyle';
 import Contact from './components/Contact';
 import FAQ from './components/FAQ';
 import Footer from './components/Footer';
+import ScrollIndicator from './components/ScrollIndicator';
+import SectionWrapper from './components/SectionWrapper';
 
 function App() {
   useEffect(() => {
@@ -19,6 +21,9 @@ function App() {
     handleLanguageChange();
     window.addEventListener('languagechange', handleLanguageChange);
 
+    // Smooth scrolling for the entire page
+    document.documentElement.style.scrollBehavior = 'smooth';
+
     return () => {
       window.removeEventListener('languagechange', handleLanguageChange);
     };
@@ -27,13 +32,45 @@ function App() {
   return (
     <>
       <Navbar />
-      <Hero />
-      <About />
-      <PropertyGallery />
-      <UrbanPromoLifestyle />
-      <FAQ />
-      <Contact />
-      <Footer />
+      <ScrollIndicator />
+      
+      <div id="hero">
+        <Hero />
+      </div>
+      
+      <SectionWrapper animationType="fadeUp" delay={100}>
+        <div id="about">
+          <About />
+        </div>
+      </SectionWrapper>
+      
+      <SectionWrapper animationType="fadeLeft" delay={200}>
+        <div id="projects">
+          <PropertyGallery />
+        </div>
+      </SectionWrapper>
+      
+      <SectionWrapper animationType="fadeRight" delay={100}>
+        <div id="lifestyle">
+          <UrbanPromoLifestyle />
+        </div>
+      </SectionWrapper>
+      
+      <SectionWrapper animationType="scale" delay={150}>
+        <div id="faq">
+          <FAQ />
+        </div>
+      </SectionWrapper>
+      
+      <SectionWrapper animationType="fadeUp" delay={100}>
+        <div id="contact">
+          <Contact />
+        </div>
+      </SectionWrapper>
+      
+      <SectionWrapper animationType="fadeUp" delay={200}>
+        <Footer />
+      </SectionWrapper>
     </>
   );
 }

@@ -108,6 +108,51 @@ body::before {
   }
 }
 
+/* Section transition animations */
+@keyframes sectionFadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(60px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes sectionFadeLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-60px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes sectionFadeRight {
+  from {
+    opacity: 0;
+    transform: translateX(60px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes sectionScale {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
 .animate-slide-up {
   animation: slideUp 0.8s ease-out forwards;
 }
@@ -126,6 +171,22 @@ body::before {
 
 .animate-float {
   animation: float 6s ease-in-out infinite;
+}
+
+.animate-section-fade-up {
+  animation: sectionFadeUp 1s ease-out forwards;
+}
+
+.animate-section-fade-left {
+  animation: sectionFadeLeft 1s ease-out forwards;
+}
+
+.animate-section-fade-right {
+  animation: sectionFadeRight 1s ease-out forwards;
+}
+
+.animate-section-scale {
+  animation: sectionScale 1s ease-out forwards;
 }
 
 /* Custom gradient text */
@@ -183,6 +244,16 @@ body::before {
   animation: videoShrink 0.6s cubic-bezier(0.4, 0, 0.2, 1) forwards;
 }
 
+/* Smooth scroll behavior */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Section spacing for smooth transitions */
+section {
+  scroll-margin-top: 80px;
+}
+
 /* Focus styles for accessibility */
 button:focus-visible,
 a:focus-visible {
@@ -222,9 +293,7 @@ a:focus-visible {
 .stagger-5 { animation-delay: 0.5s; }
 .stagger-6 { animation-delay: 0.6s; }
 
-
-
-
+/* Carousel responsive styles */
 @media (max-width: 768px) {
   .carousel-container .w-1-3 {
     width: 100%;
@@ -234,4 +303,60 @@ a:focus-visible {
   .carousel-container .w-1-3 {
     width: 50%;
   }
+}
+
+/* Contact popup animations */
+@keyframes popupFadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.9) translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}
+
+.animate-popup-fade-in {
+  animation: popupFadeIn 0.3s ease-out forwards;
+}
+
+/* Scroll indicator styles */
+.scroll-indicator {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.scroll-indicator:hover {
+  transform: scale(1.2);
+}
+
+/* Enhanced button hover effects */
+.btn-hover-lift {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.btn-hover-lift:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+/* Glass morphism effect */
+.glass-effect {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+/* Loading states */
+@keyframes pulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}
+
+.animate-pulse {
+  animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
 }
