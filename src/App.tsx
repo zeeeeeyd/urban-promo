@@ -8,7 +8,6 @@ import UrbanPromoLifestyle from './components/UrbanPromoLifestyle';
 import Contact from './components/Contact';
 import FAQ from './components/FAQ';
 import Footer from './components/Footer';
-import ScrollIndicator from './components/ScrollIndicator';
 import SectionWrapper from './components/SectionWrapper';
 
 function App() {
