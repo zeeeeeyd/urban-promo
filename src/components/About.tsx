@@ -170,7 +170,7 @@ const About = () => {
   useEffect(() => {
     const observers: IntersectionObserver[] = [];
 
-    const createObserver = (ref: React.RefObject<HTMLElement>, key: keyof typeof sectionsVisible) => {
+    const createObserver = (ref: React.RefObject<HTMLElement | null>, key: keyof typeof sectionsVisible) => {
       if (ref.current) {
         const observer = new IntersectionObserver(
           ([entry]) => {
