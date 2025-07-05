@@ -19,6 +19,7 @@ body {
   min-height: 100vh;
   color: #1f2937;
   position: relative;
+  overflow-x: hidden;
 }
 
 /* Very subtle gold accent overlay */

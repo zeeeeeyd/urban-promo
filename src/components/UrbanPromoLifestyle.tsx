@@ -25,7 +25,7 @@ const UrbanPromoLifestyle = () => {
       title: t('lifestyle.videos.celebrating.title'),
       subtitle: t('lifestyle.videos.celebrating.subtitle'),
       description: t('lifestyle.videos.celebrating.description'),
-      videoUrl: "https://videos.pexels.com/video-files/3571077/3571077-uhd_2560_1440_30fps.mp4",
+      videoUrl: "https://videos.pexels.com/video-files/7816255/7816255-hd_1920_1080_25fps.mp4",
       thumbnail: "https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg"
     },
     {
@@ -33,7 +33,7 @@ const UrbanPromoLifestyle = () => {
       title: t('lifestyle.videos.inspiring.title'),
       subtitle: t('lifestyle.videos.inspiring.subtitle'),
       description: t('lifestyle.videos.inspiring.description'),
-      videoUrl: "https://videos.pexels.com/video-files/3209828/3209828-uhd_2560_1440_25fps.mp4",
+      videoUrl: "https://videos.pexels.com/video-files/7646596/7646596-uhd_2560_1440_25fps.mp4",
       thumbnail: "https://images.pexels.com/photos/3184338/pexels-photo-3184338.jpeg"
     },
     {
@@ -41,7 +41,7 @@ const UrbanPromoLifestyle = () => {
       title: t('lifestyle.videos.curated.title'),
       subtitle: t('lifestyle.videos.curated.subtitle'),
       description: t('lifestyle.videos.curated.description'),
-      videoUrl: "https://videos.pexels.com/video-files/3209821/3209821-uhd_2560_1440_25fps.mp4",
+      videoUrl: "https://videos.pexels.com/video-files/8814723/8814723-uhd_2560_1440_25fps.mp4",
       thumbnail: "https://images.pexels.com/photos/3184339/pexels-photo-3184339.jpeg"
     }
   ];

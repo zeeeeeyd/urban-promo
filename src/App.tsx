@@ -32,7 +32,7 @@ function App() {
   return (
     <>
       <Navbar />
-      <ScrollIndicator />
+      {/* <ScrollIndicator /> */}
       
       <div id="hero">
         <Hero />
@@ -67,10 +67,7 @@ function App() {
           <Contact />
         </div>
       </SectionWrapper>
-      
-      <SectionWrapper animationType="fadeUp" delay={200}>
-        <Footer />
-      </SectionWrapper>
+      <Footer />
     </>
   );
 }
